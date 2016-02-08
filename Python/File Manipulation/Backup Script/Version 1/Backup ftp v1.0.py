@@ -29,13 +29,13 @@ def grabfile():
 try:
 	MainClass()
 except Exception:
-	print "Not Connected"
-	print "Check the address", Host + ":" + str(Port)
+	print("Not Connected")
+	print("Check the address", Host + ":" + str(Port))
 else:
-	print "Connected"
+	print("Connected")
 
 if ftplib.error_perm and not Username == "" and Password == "":
-	print "Please check your credentials\n", Username, "\n", Password
+	print("Please check your credentials\n", Username, "\n", Password)
 
 credentials = ftp.login(Username, Password)
 grabfile()

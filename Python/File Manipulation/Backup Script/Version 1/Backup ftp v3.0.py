@@ -7,12 +7,9 @@ Time = str(now.hour) + ":" + str(now.minute) + ":" + str(now.second)
 
 directoryName = Year + " " + Time
 
-Destination = "/Users/alowe/Desktop/testdir/" + directoryName
+Destination = "path_to_destination" + directoryName
 Options = "r"
 def backUp(Source):
 	call(["wget", "-" + Options, "-P" + Destination, Source])
 
 backUp("ftp://ftp.debian.org/*")
-
-
-
