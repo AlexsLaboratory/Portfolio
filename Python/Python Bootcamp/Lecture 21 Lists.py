@@ -1,97 +1,150 @@
 """
 Lists can hold any object type such as integers, floating points and strings.
 """
-my_list = ["one","two","three",4, 4.5]
-print(my_list)
+list_one = ["one", "two", "three", 4, 4.5]
+print(list_one)
+# Output: ['one', 'two', 'three', 4, 4.5]
 
 
 """
-The len function also works with lists and will count how many elements there are in the list
+The "len" function also works with lists and will count how many elements there are in the list.
 """
-print(len(my_list))
+list_two = ["one", "two", "three", 4, 4.5]
+print(len(list_two))
+# Output: 5
 
 
 """
-Lists can be indexed just like a string can.
+Prints the first element in the list.
 """
-my_list2 = ["one","two","three",4,5]
-print(my_list2[0])
-print(my_list2[1:])
-print(my_list2[:2])
-print(my_list2[::-1])
+list_three = ["one", "two", "three", 4, 4.5]
+print(list_three[0])
+# Output: one
 
 
 """
-You can concatenate lists with other lists. This does not change either of the variables.
+Prints everything from the second element in the list onward.
+"""
+list_four = ["one", "two", "three", 4, 4.5]
+print(list_four[1:])
+# Output: ['two', 'three', 4, 4.5]
+
+
+"""
+Prints everything from the beginning of the list up to the second element in the list.
+"""
+list_five = ["one", "two", "three", 4, 4.5]
+print(list_five[:2])
+# Output: ['one', 'two']
+
+
+"""
+Prints each element in the list in reverse order.
+"""
+list_six = ["one", "two", "three", 4, 4.5]
+print(list_six[::-1])
+# Output: [4.5, 4, 'three', 'two', 'one']
+
+
+"""
+Concatenate lists with other lists.
+
+NOTE: This does not change either of the variables.
 """
 print(my_list + my_list2)
+# Output: ['one', 'two', 'three', 4, 4.5, 'one', 'two', 'three', 4, 4.5]
 
 
 """
-You can permanently add one list to another list. This does change the variables.
+Permanently add one list to another list.
+
+NOTE: This does change the variables.
 """
-my_list = my_list + my_list2
-print(my_list)
+con_list = list_one + list_two
+print(con_list)
+# Output: ['one', 'two', 'three', 4, 4.5, 'one', 'two', 'three', 4, 4.5]
 
 
 """
-You can multiply list too. This will print your list 8 times and make it only one list.
+Multiply list too. This will print your list 8 times and make it one list.
 """
-print(my_list * 8)
+print(list_one * 8)
+# Output: ['one', 'two', 'three', 4, 4.5, 'one', 'two', 'three', 4, 4.5, 'one', 'two', 'three', 4, 4.5, 'one', 'two', 'three', 4, 4.5, 'one', 'two', 'three', 4, 4.5, 'one', 'two', 'three', 4, 4.5, 'one', 'two', 'three', 4, 4.5, 'one', 'two', 'three', 4, 4.5]
 
 
 """
-You can append attributes onto lists
+Append attributes onto the end of lists.
 """
-my_list3 = ["one","two",3,3.5]
-print(my_list3)
-my_list3.append("I am appended")
-print(my_list3)
+list_seven = ["one", "two", "three", 4, 4.5]
+print(list_seven)
+list_seven.append("I am appended")
+print(list_seven)
+# Output: ['one', 'two', 'three', 4, 4.5, 'I am appended']
 
 
 """
-You can you another method called pop which will "pop" off by default the last index of the list
+Pop which will "pop" off element "0".
+
+NOTE: if you do not specify a pop off index location it will by default pop off the last element in the list.
 """
-print(my_list.pop(0))
-print(my_list)
+list_eight = ["one", "two", "three", 4, 4.5]
+print(list_eight.pop(0))
+print(list_eight)
+# Output: ['two', 'three', 4, 4.5]
 
 
 """
-You can reverse the order of a list with the reverse function
+Reverse the order of a list with the reverse function.
 """
-new_list = ["g","m","p","a","t"]
-print(new_list)
-new_list.reverse()
-print(new_list)
-
-"""
-You can also sort the order of a list. It will sort numbers by ascending order and will sort letters by alphabetical order.
-"""
-new_list = ["g","m","p","a","t"]
-print(new_list)
-new_list.sort()
-print(new_list)
+list_nine = ["g", "m", "p", "a", "t"]
+print(list_nine)
+list_nine.reverse()
+print(list_nine)
+# Output: ['t', 'a', 'p', 'm', 'g']
 
 
 """
-You can have nested list which are just list within list
+Sort the order of a list.
+
+NOTE: It will sort numbers by ascending order and will sort letters by alphabetical order.
+NOTE: It will not sort letters and numbers that are in the same list.
+"""
+# Letters
+list_ten = ["g", "m", "p", "a", "t"]
+print(list_ten)
+list_ten.sort()
+print(list_ten)
+# Output: ['a', 'g', 'm', 'p', 't']
+
+# Numbers
+list_eleven = [10, 1889, 594925, 9, 184]
+print(list_eleven)
+list_eleven.sort()
+print(list_eleven)
+# Output: [9, 10, 184, 1889, 594925]
+
+
+"""
+You can have nested list which are just list within list.
 """
 list_1 = [1,2,3]
 list_2 = [4,5,6]
 list_3 = [7,8,9]
 nested_lists = [list_1,list_2,list_3]
 print(nested_lists)
+# Output: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 
 """
-Indexing nested lists
+Indexing nested lists.
 """
-
 print(nested_lists[0][1])
+# Output: 2
 
 
 """
-List comprehensions
+List comprehensions.
 """
 first_col = [row[0] for row in nested_lists]
 print(first_col)
+# Output:[1, 4, 7]
