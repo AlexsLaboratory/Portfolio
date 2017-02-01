@@ -1,0 +1,18 @@
+* text=auto
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+
+*.css     text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2 diff=css
+*.html    text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2 diff=html
+*.js      text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2 diff=js
+*.md      text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2
+*.py     text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2 diff=py
+*.txt     text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2
+
+*.css filter=tabs2spaces
+*.html filter=tabs2spaces
+*.js filter=tabs2spaces
+*.py filter=tabs2spaces

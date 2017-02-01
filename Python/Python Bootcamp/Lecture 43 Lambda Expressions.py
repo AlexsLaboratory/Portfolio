@@ -2,7 +2,7 @@
 Normal def function
 """
 def square(num):
-	return(num**2)
+  return(num**2)
 print(square(8))
 # Output: 64
 
@@ -23,7 +23,7 @@ print(even(8))
 The def function below does the same thing as above
 """
 def even(num):
-	return(num % 2 == 0)
+  return(num % 2 == 0)
 print(even(8))
 # Output: True
 
@@ -45,7 +45,7 @@ print(rev('Hello'))
 
 
 def adder(x,y):
-	return(x+y)
+  return(x+y)
 print(adder(64,64))
 # Output: 128
 
