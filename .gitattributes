@@ -5,14 +5,18 @@
 *.jpg binary
 *.png binary
 
-*.css     text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2 diff=css
-*.html    text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2 diff=html
-*.js      text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2 diff=js
-*.md      text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2
-*.py     text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2 diff=py
-*.txt     text eol=lf whitespace=blank-at-eol,-blank-at-eof,tabwidth=2
+*.css text eol=lf diff=css
+*.html text eol=lf diff=html
+*.js text eol=lf diff=js
+*.md text eol=lf
+*.py text eol=lf diff=py
+*.txt text eol=lf
 
 *.css filter=tabs2spaces
 *.html filter=tabs2spaces
 *.js filter=tabs2spaces
 *.py filter=tabs2spaces
+*.css filter=trimWhitespace
+*.html filter=trimWhitespace
+*.js filter=trimWhitespace
+*.py filter=trimWhitespace
