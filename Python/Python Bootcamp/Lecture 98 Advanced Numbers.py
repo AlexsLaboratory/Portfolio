@@ -1,0 +1,11 @@
+print(hex(12))
+print(hex(2048))
+print(bin(128))
+print(bin(512))
+print(2**4)
+print(pow(2,4))
+print(pow(2,4,6)) # This is the same as (a**b) % c
+print(abs(-3))
+print(abs(3))
+print(round(3.4))
+print(round(3.141592, 2))
