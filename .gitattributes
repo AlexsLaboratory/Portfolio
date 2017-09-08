@@ -5,12 +5,32 @@
 *.jpg binary
 *.png binary
 
+*.jar binary
+*.class binary
+*.dll binary
+*.ear binary
+*.so  binary
+*.war binary
+
 *.css text eol=lf diff=css
 *.html text eol=lf diff=html
-*.js text eol=lf diff=js
+*.js text eol=lf
 *.md text eol=lf
-*.py text eol=lf diff=py
+*.py text eol=lf diff=python
 *.txt text eol=lf
+*.java text eol=lf diff=java
+*.json text eol=lf
+*.jsp text eol=lf
+*.jspf text eol=lf
+*.jspx text eol=lf
+*.properties text eol=lf
+*.sh text eol=lf
+*.tld text eol=lf
+*.tag text eol=lf
+*.tagx text eol=lf
+*.xml text eol=lf
+*.iml text eol=lf
+*.yml text eol=lf
 
 *.css filter=tabs2spaces
 *.html filter=tabs2spaces
@@ -20,3 +40,31 @@
 *.html filter=trimWhitespace
 *.js filter=trimWhitespace
 *.py filter=trimWhitespace
+*.txt filter=tabs2spaces
+*.java filter=tabs2spaces
+*.json filter=tabs2spaces
+*.jsp filter=tabs2spaces
+*.jspf filter=tabs2spaces
+*.jspx filter=tabs2spaces
+*.properties filter=tabs2spaces
+*.sh filter=tabs2spaces
+*.tld filter=tabs2spaces
+*.tag filter=tabs2spaces
+*.tagx filter=tabs2spaces
+*.xml filter=tabs2spaces
+*.iml filter=tabs2spaces
+*.yml filter=tabs2spaces
+*.txt filter=trimWhitespace
+*.java filter=trimWhitespace
+*.json filter=trimWhitespace
+*.jsp filter=trimWhitespace
+*.jspf filter=trimWhitespace
+*.jspx filter=trimWhitespace
+*.properties filter=trimWhitespace
+*.sh filter=trimWhitespace
+*.tld filter=trimWhitespace
+*.tag filter=trimWhitespace
+*.tagx filter=trimWhitespace
+*.xml filter=trimWhitespace
+*.iml filter=trimWhitespace
+*.yml filter=trimWhitespace

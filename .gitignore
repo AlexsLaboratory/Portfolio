@@ -1,2 +1,21 @@
+### Python ###
 Python/Python Bootcamp/__pycache__
 sh.exe.stackdump
+
+### Java - Intellij ###
+# User-specific stuff:
+Java/Complete Java Master Class/*/.idea/**/workspace.xml
+Java/Complete Java Master Class/*/.idea/**/tasks.xml
+Java/Complete Java Master Class/*/.idea/dictionaries
+
+# Sensitive or high-churn files:
+Java/Complete Java Master Class/*/.idea/**/dataSources/
+Java/Complete Java Master Class/*/.idea/**/dataSources.ids
+Java/Complete Java Master Class/*/.idea/**/dataSources.xml
+Java/Complete Java Master Class/*/.idea/**/dataSources.local.xml
+Java/Complete Java Master Class/*/.idea/**/sqlDataSources.xml
+Java/Complete Java Master Class/*/.idea/**/dynamic.xml
+Java/Complete Java Master Class/*/.idea/**/uiDesigner.xml
+
+## File-based project format:
+Java/Complete Java Master Class/*/*.iws
