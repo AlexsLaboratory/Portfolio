@@ -1,6 +1,6 @@
 l = [1,2,3,4,5]
 for element in l:
-	print(element)
+  print(element)
 # Output:
 """
 1
@@ -10,10 +10,9 @@ for element in l:
 5
 """
 
-
 l = [1,2,3,4,5]
 for element in l:
-	print("Something")
+  print("Something")
 # Output:
 """
 Something
@@ -22,17 +21,16 @@ Something
 Something
 Something
 """
-
 
 """
 This only prints the even numbers
 """
 l = [1,2,3,4,5]
 for element in l:
-	if element % 2 == 0:
-		print(element)
-	else:
-		print("Odd Number")
+  if element % 2 == 0:
+    print(element)
+  else:
+    print("Odd Number")
 # Output:
 """
 Odd Number
@@ -42,16 +40,15 @@ Odd Number
 Odd Number
 """
 
-
 """
 This only prints the odd numbers
 """
 l = [1,2,3,4,5]
 for element in l:
-	if element % 2 == 1:
-		print(element)
-	else:
-		print("Even Number")
+  if element % 2 == 1:
+    print(element)
+  else:
+    print("Even Number")
 # Output:
 """
 1
@@ -60,7 +57,6 @@ Even Number
 Even Number
 5
 """
-
 
 """
 Adding all of the numbers up in the list
@@ -68,25 +64,25 @@ Adding all of the numbers up in the list
 l = [1,2,3,4,5]
 tally = 0
 for element in l:
-	tally += element
+  tally += element
 print(tally)
 # Output: 15
 
 s = 'This is a string'
 for item in s:
-	print(item)
+  print(item)
 # Output:
 """
 T
 h
 i
 s
- 
+
 i
 s
- 
+
 a
- 
+
 s
 t
 r
@@ -95,13 +91,12 @@ n
 g
 """
 
-
 """
 Tuple unpacking
 """
 l = [(2,4),(6,8),(10,12)]
 for (t1,t2) in l:
-	print(t1)
+  print(t1)
 # Output:
 """
 2
@@ -109,19 +104,18 @@ for (t1,t2) in l:
 10
 """
 
-
 """
 Iterating through a dictionary
 """
 d = {'k1':1,'k2':2,'k3':3}
 for k,v in d.items():
-	print(k,'\n',v)
+  print(k,'\n',v)
 # Output:
 """
-k1 
+k1
  1
-k2 
+k2
  2
-k3 
+k3
  3
 """

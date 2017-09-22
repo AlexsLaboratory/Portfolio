@@ -10,9 +10,9 @@ Time = str(nowDatetime.hour) + ":" + str(nowDatetime.minute) + ":" + str(nowDate
 directoryName = Year + " " + Time # Combines Name, Year, and Time
 
 if os.path.exists(Destination) == False: # if the destination does not exists then create the destination
-	os.makedirs(Destination)
+  os.makedirs(Destination)
 else:
-	print("Directory already exists", Destination)
+  print("Directory already exists", Destination)
 
 os.chdir(Destination)
 os.mkdir(directoryName)

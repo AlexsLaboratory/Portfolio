@@ -1,4 +1,4 @@
-from subprocess import call 
+from subprocess import call
 import os, datetime
 
 now = datetime.datetime.now()
@@ -10,6 +10,6 @@ directoryName = Year + " " + Time
 Destination = "path_to_destination" + directoryName
 Options = "r"
 def backUp(Source):
-	call(["wget", "-" + Options, "-P" + Destination, Source])
+  call(["wget", "-" + Options, "-P" + Destination, Source])
 
 backUp("ftp://ftp.debian.org/*")

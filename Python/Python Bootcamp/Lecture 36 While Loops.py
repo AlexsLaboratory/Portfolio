@@ -3,10 +3,10 @@ Basic while loop
 """
 x = 0
 while x < 10:
-	print('x is currently:',x)
-	x += 1
+  print('x is currently:',x)
+  x += 1
 else:
-	print('All done')
+  print('All done')
 # Output:
 """
 x is currently: 0
@@ -22,7 +22,6 @@ x is currently: 9
 All done
 """
 
-
 """
 Break, Continue, Pass
 """
@@ -30,14 +29,14 @@ Break, Continue, Pass
 # Continue
 x = 0
 while x < 10:
-	print('x is currently:',x)
-	print('x is still less than 10 adding 1 to x')
-	x += 1
-	if x == 3:
-		print('Hey, x equals 3!')
-	else:
-		print('continuing...')
-		continue
+  print('x is currently:',x)
+  print('x is still less than 10 adding 1 to x')
+  x += 1
+  if x == 3:
+    print('Hey, x equals 3!')
+  else:
+    print('continuing...')
+    continue
 # Output:
 """
 x is currently: 0
@@ -75,14 +74,14 @@ continuing...
 # Break
 x = 0
 while x < 10:
-	print('x is currently:',x)
-	print('x is still less than 10 adding 1 to x')
-	x += 1
-	if x == 3:
-		print('Hey, x equals 3!')
-		break
-	else:
-		print('continuing...')
+  print('x is currently:',x)
+  print('x is still less than 10 adding 1 to x')
+  x += 1
+  if x == 3:
+    print('Hey, x equals 3!')
+    break
+  else:
+    print('continuing...')
 # Output:
 """
 x is currently: 0

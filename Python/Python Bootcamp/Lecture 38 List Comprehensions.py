@@ -1,9 +1,8 @@
 l = []
 for letter in 'word':
-	l.append(letter)
+  l.append(letter)
 print(l)
 # Output: ['w', 'o', 'r', 'd']
-
 
 """
 List comprehensions
@@ -20,7 +19,6 @@ l = [number for number in range(0,11) if number % 2 == 0]
 print(l)
 # Output: [0, 2, 4, 6, 8, 10]
 
-
 """
 Convert Celsius to Fahrenheit
 """
@@ -28,7 +26,6 @@ celsius = [0,10,20,1,34.5]
 fahrenheit = [(temp * (9/5) + 32) for temp in celsius]
 print(fahrenheit)
 # Output: [32.0, 50.0, 68.0, 33.8, 94.1]
-
 
 """
 Nested list comprehensions
