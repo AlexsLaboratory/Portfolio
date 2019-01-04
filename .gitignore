@@ -3,19 +3,66 @@ Python/Python Bootcamp/__pycache__
 sh.exe.stackdump
 
 ### Java - Intellij ###
-# User-specific stuff:
-Java/Complete Java Master Class/*/.idea/**/workspace.xml
-Java/Complete Java Master Class/*/.idea/**/tasks.xml
-Java/Complete Java Master Class/*/.idea/dictionaries
+# User-specific stuff
+Java/**/.idea/**/workspace.xml
+Java/**/.idea/**/tasks.xml
+Java/**/.idea/**/usage.statistics.xml
+Java/**/.idea/**/dictionaries
+Java/**/.idea/**/shelf
 
-# Sensitive or high-churn files:
-Java/Complete Java Master Class/*/.idea/**/dataSources/
-Java/Complete Java Master Class/*/.idea/**/dataSources.ids
-Java/Complete Java Master Class/*/.idea/**/dataSources.xml
-Java/Complete Java Master Class/*/.idea/**/dataSources.local.xml
-Java/Complete Java Master Class/*/.idea/**/sqlDataSources.xml
-Java/Complete Java Master Class/*/.idea/**/dynamic.xml
-Java/Complete Java Master Class/*/.idea/**/uiDesigner.xml
+# Generated files
+Java/**/.idea/**/contentModel.xml
 
-## File-based project format:
-Java/Complete Java Master Class/*/*.iws
+# Sensitive or high-churn files
+Java/**/.idea/**/dataSources/
+Java/**/.idea/**/dataSources.ids
+Java/**/.idea/**/dataSources.local.xml
+Java/**/.idea/**/sqlDataSources.xml
+Java/**/.idea/**/dynamic.xml
+Java/**/.idea/**/uiDesigner.xml
+Java/**/.idea/**/dbnavigator.xml
+
+# Gradle
+Java/**/.idea/**/gradle.xml
+Java/**/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+Java/**/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+Java/**/out
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+Java/**/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+Java/**/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+Java/**/.idea/caches/build_file_checksums.ser
