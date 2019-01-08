@@ -41,7 +41,7 @@ cmake-build-*/
 Java/**/.idea/**/mongoSettings.xml
 
 # File-based project format
-*.iws
+Java/**/*.iws
 
 # IntelliJ
 Java/**/out
