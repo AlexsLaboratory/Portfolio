@@ -2,29 +2,29 @@
 Python/Python Bootcamp/__pycache__
 sh.exe.stackdump
 
-### Java - Intellij ###
+### Intellij ###
 # User-specific stuff
-Java/**/.idea/**/workspace.xml
-Java/**/.idea/**/tasks.xml
-Java/**/.idea/**/usage.statistics.xml
-Java/**/.idea/**/dictionaries
-Java/**/.idea/**/shelf
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/**/usage.statistics.xml
+**/.idea/**/dictionaries
+**/.idea/**/shelf
 
 # Generated files
-Java/**/.idea/**/contentModel.xml
+**/.idea/**/contentModel.xml
 
 # Sensitive or high-churn files
-Java/**/.idea/**/dataSources/
-Java/**/.idea/**/dataSources.ids
-Java/**/.idea/**/dataSources.local.xml
-Java/**/.idea/**/sqlDataSources.xml
-Java/**/.idea/**/dynamic.xml
-Java/**/.idea/**/uiDesigner.xml
-Java/**/.idea/**/dbnavigator.xml
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+**/.idea/**/uiDesigner.xml
+**/.idea/**/dbnavigator.xml
 
 # Gradle
-Java/**/.idea/**/gradle.xml
-Java/**/.idea/**/libraries
+**/.idea/**/gradle.xml
+**/.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -38,7 +38,7 @@ Java/**/.idea/**/libraries
 cmake-build-*/
 
 # Mongo Explorer plugin
-Java/**/.idea/**/mongoSettings.xml
+**/.idea/**/mongoSettings.xml
 
 # File-based project format
 Java/**/*.iws
@@ -53,7 +53,7 @@ Java/**/out
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-Java/**/.idea/replstate.xml
+**/.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -62,7 +62,7 @@ crashlytics-build.properties
 fabric.properties
 
 # Editor-based Rest Client
-Java/**/.idea/httpRequests
+**/.idea/httpRequests
 
 # Android studio 3.1+ serialized cache file
-Java/**/.idea/caches/build_file_checksums.ser
+**/.idea/caches/build_file_checksums.ser
